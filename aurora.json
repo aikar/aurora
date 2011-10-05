@@ -1,6 +1,6 @@
 {
-    "dirs": ["examples"],
-    "extension": ".ajs",
+    "dirs": ["examples", "lib"],
+    "extension": "_.js",
     "streamlineoptions": {
         "ninja": 1
     }
