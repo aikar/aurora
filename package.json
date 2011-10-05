@@ -1,21 +1,20 @@
 {
   "name": "aurora",
-  "description": "Traceur compiler for node.js",
-  "version": "2.0.0",
-  "homepage": "http://aikar.co/traceur",
+  "description": "Streamline & Traceur compiler for node.js",
+  "version": "0.1.0",
+  "homepage": "http://aikar.co/aurora",
   "repository": {
     "type": "git",
-    "url": "git@github.com:aikar/traceur"
+    "url": "git@github.com:aikar/aurora"
   },
   "author": "Aikar <aikar@aikar.co>",
-  "main": "lib/traceur.js",
+  "main": "lib/aurora.js",
   "bugs": {
     "mail": "aikar@aikar.co",
-    "web": "https://github.com/aikar/traceur/issues"
+    "web": "https://github.com/aikar/aurora/issues"
   },
   "bin" : {
-    "traceur":"./bin/traceur",
-    "traceurc":"./bin/traceurc"
+    "traceur":"./bin/aurora"
   },
   "engines": {
     "node": ">=0.4.0"
