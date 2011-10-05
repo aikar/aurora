@@ -1,0 +1,7 @@
+{
+    "dirs": ["examples"],
+    "extension": ".ajs",
+    "streamlineoptions": {
+        "ninja": 1
+    }
+}

@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+require('../lib/aurora.js').compileProject(function(err, result) {
+    if (err) {
+        throw err;
+    }
+});
