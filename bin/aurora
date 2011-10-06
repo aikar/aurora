@@ -1,6 +1,8 @@
 #!/usr/bin/env node
-require('../lib/aurora.js').compileProject(function(err, result) {
-    if (err) {
-        throw err;
-    }
-});
+if (process.argv[2]) {
+    var path = require('path');
+    require('../lib/runtime.js').register();
+    require(path.resolve(process.cwd(), process.argv[2]));
+} else {
+    require('../lib/aurora.js').compileProject();
+}

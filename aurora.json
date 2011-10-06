@@ -2,6 +2,9 @@
     "dirs": ["examples", "lib"],
     "extension": "_.js",
     "streamlineoptions": {
+        "verbose": 0,
+        "lines":"preserve",
         "ninja": 1
-    }
+    },
+    "verbose": 0
 }

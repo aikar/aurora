@@ -10,3 +10,4 @@ function test(_, file) {
 //var test = test.readdir(_);
 var test = test(_, '/etc/passwd');
 console.log(test.length);
+
