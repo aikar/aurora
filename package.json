@@ -1,7 +1,7 @@
 {
   "name": "aurora",
   "description": "Streamline & Traceur compiler for node.js",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "http://aikar.co/aurora",
   "repository": {
     "type": "git",
