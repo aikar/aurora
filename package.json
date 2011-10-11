@@ -16,6 +16,7 @@
   "bin" : {
     "aurora": "./bin/aurora"
   },
+  "bundledDependencies" : ["traceur", "streamline", ".bin"],
   "engines": {
     "node": ">=0.4.0"
   }
